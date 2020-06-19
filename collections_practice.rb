@@ -48,6 +48,7 @@ end
 
 
 def find_a(array)
+array.each 
 binding.pry  
 end 
 
