@@ -1,3 +1,5 @@
+require 'pry'
+
 def sort_array_asc(array)
   array.sort do |a, b|
     a <=> b 
@@ -45,8 +47,12 @@ end
 end
 
 def find_a(array)
- 
+binding.pry  
 end 
+
+
+
+
 
 ### Question 7: `#find_a`
 
