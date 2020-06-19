@@ -51,7 +51,6 @@ def find_a(array)
 array.each do |name|
 name.start_with?("a")
 end 
-binding.pry  
 end 
 
 
