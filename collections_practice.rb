@@ -65,4 +65,14 @@ def add_s(array)
   
 end   
 
+### Question 8: `#sum_array`
 
+#Build a method `sum_array` that adds together all of the integers in the array and returns their sum.
+#
+#**Advanced:** *Try using the* `.inject` *method here.*
+
+## Question 9: `#add_s`
+
+#Build a method that adds an `"s"` to each word in the array except for the second element in the array ("feet" is already plural).
+
+#**Advanced:** *Iterators in Ruby are chainable, see if you can use* `.each_with_index` *in addition to* `.collect` *to solve this one in an elegant way. What happens if you write:*
