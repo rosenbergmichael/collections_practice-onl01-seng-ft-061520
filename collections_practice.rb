@@ -61,15 +61,23 @@ def sum_array(array)
 end
 
 
-def add_s(array)
-  
-end   
 
 ### Question 8: `#sum_array`
 
 #Build a method `sum_array` that adds together all of the integers in the array and returns their sum.
 #
 #**Advanced:** *Try using the* `.inject` *method here.*
+
+
+
+
+def add_s(array)
+  
+end   
+
+
+
+
 
 ## Question 9: `#add_s`
 
