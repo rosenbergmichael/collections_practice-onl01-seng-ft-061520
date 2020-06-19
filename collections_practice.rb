@@ -63,7 +63,12 @@ end
 
 
 def add_s(array)
- binding.pry  
+  array.each_with_index.collect do |element, index| 
+    if 
+    binding.pry   
+    end 
+  
+  end 
 end   
 
 
