@@ -48,9 +48,11 @@ end
 
 
 def find_a(array)
-array.select do |name|
-name.start_with?("a")
+new_array=[]
+array.each do |name|
+new_array << name.start_with?("a")
 end 
+new_array
 end 
 
 
