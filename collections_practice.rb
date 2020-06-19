@@ -57,7 +57,7 @@ end
 
 
 def sum_array(array)
-  
+  binding.pry 
 end
 
 
